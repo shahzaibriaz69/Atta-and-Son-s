@@ -17,6 +17,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="madiaquries.css" />
     <title>Events Managements Company</title>
   </head>
   <body>
@@ -26,6 +27,11 @@
           <!-- <img src="company-logo.png" alt="img"> -->
           <h1>Events Management</h1>
         </div>
+
+        <div class="nav-toggle" id="nav-toggle">
+          <i class="ri-menu-line"></i>
+        </div>
+
         <nav class="nav-menu" id="nav-menu">
           <ul class="nav-list">
             <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
@@ -36,6 +42,7 @@
               <a href="#services" class="nav-link"
                 >Services <i class="ri-arrow-down-s-line"></i
               ></a>
+
               <ul class="dropdown-menu">
                 <li><a href="#event-management">Event Management</a></li>
                 <li><a href="#corporate-events">Corporate Events</a></li>
@@ -44,10 +51,12 @@
                 <li><a href="#exhibitions">Exhibitions & Trade Shows</a></li>
               </ul>
             </li>
+
             <li class="nav-item">
               <a href="#contact" class="nav-link">Contact</a>
             </li>
           </ul>
+
           <div class="search">
             <i class="ri-search-line"></i>
             <input type="text" placeholder="Search..." />
@@ -55,6 +64,82 @@
         </nav>
       </div>
     </header>
+    <section class="home" id="home">
+      <div class="home-container container">
+        <div class="slide">
+          <div class="item" style="background-image: url(web-img/event-2.jpg)">
+            <div class="content">
+              <div class="name">Scotland</div>
+              <div class="des">
+                We organize corporate events, weddings, product launches and
+                exhibitions with creativity, precision, and excellence.
+              </div>
+              <a
+                class="seeMore"
+                target="_blank"
+                href="https://github.com/MDJAmin"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+
+          <div class="item" style="background-image: url(web-img/event-3.jpg)">
+            <div class="content">
+              <div class="name">We Plan, You Celebrate</div>
+              <div class="des">
+                We organize corporate events, weddings, product launches and
+                exhibitions with creativity, precision, and excellence.
+              </div>
+              <a
+                class="seeMore"
+                target="_blank"
+                href="https://github.com/MDJAmin"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+
+          <div class="item" style="background-image: url(web-img/event-4.jpg)">
+            <div class="content">
+              <div class="name">New Zealand</div>
+              <div class="des">
+                Wander dramatic, mist-laden mountain paths that feel straight
+                out of a dream.
+              </div>
+              <a
+                class="seeMore"
+                target="_blank"
+                href="https://github.com/MDJAmin"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+
+          <div class="item" style="background-image: url(web-img/event-5.jpg)">
+            <div class="content">
+              <div class="name">Japan</div>
+              <div class="des">
+                Discover serene mountain temples shrouded in dusk and ancient
+                forest trails.
+              </div>
+              <a
+                class="seeMore"
+                target="_blank"
+                href="https://github.com/MDJAmin"
+                ><button>See More</button></a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button class="prev">◁</button>
+          <button class="next">▷</button>
+        </div>
+      </div>
+    </section>
+    <section class="about" id="about"></section>
+    <section class="services" id="services"></section>
+    <footer></footer>
     <script src="script.js"></script>
   </body>
 </html>
